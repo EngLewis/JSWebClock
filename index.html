@@ -1,12 +1,43 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Relógio Web JS</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/estilo.css">
+
 </head>
-<body>
-    
+<body onload="carregar()">
+    <header>
+        <p>HORA CERTA</p>
+    </header>
+
+    <section >        
+
+    <div id="horario">
+        HORA:MINUTO:SEGUNDO
+    </div>
+
+    <div class="confHora">
+        <p> <img src="" > HORÁRIO LOCAL - BRASÍLIA/DF  |  UTC - 03:00 </p>
+    </div>
+
+     <div id="foto">
+    </div>
+
+    </section>
+
+  
+   
+    <footer>
+        <p>&copy;Open Sorce</p>
+    </footer>
+
+    <!-- script -->
+    <script src="relogio.js"></script>
 </body>
+
 </html>
